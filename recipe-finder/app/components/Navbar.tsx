@@ -4,6 +4,8 @@ import { useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
+import Image from "next/image";
+
 
 export default function LandingPage() {
   const router = useRouter();
@@ -15,10 +17,12 @@ export default function LandingPage() {
       <nav className="w-full bg-[#F6F5F0] border-b border-gray-200">
         <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6 md:px-8">
           <div className="flex items-center gap-2">
-  <img
+  <Image
     src="/Screenshot 2026-03-24 234148.png"
     alt="Healthy Recipe Finder"
     className="w-7 h-7"
+    width={28}
+    height={28}
   />
   <span className="font-semibold text-lg text-green-900">
     Healthy Recipe Finder
@@ -46,7 +50,10 @@ export default function LandingPage() {
   </li>
 </ul>
 
-          <span className="hidden lg:block bg-[#1a3c34] text-white px-5 py-2 rounded-md select-none">
+<span 
+  className="hidden lg:block bg-[#1a3c34] text-white px-5 py-2 rounded-md select-none cursor-pointer hover:bg-[#244d43] active:scale-95 transition-all shadow-sm"
+  onClick={() => router.push("/recipespage")}
+>
   Browse recipes
 </span>
 
