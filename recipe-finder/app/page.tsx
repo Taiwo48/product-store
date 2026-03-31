@@ -1,7 +1,7 @@
 "use client";
 
-import Landingpage from "./components/Landingpage"
-import WhatYouWillGet from "./components/WhatYouWillGet"
+import Landingpage from "./components/Landingpage";
+import WhatYouWillGet from "./components/WhatYouWillGet";
 import BuiltForRealLife from "./components/BuiltForRealLife";
 import Footer from "./components/Footer";
 

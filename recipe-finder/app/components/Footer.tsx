@@ -18,26 +18,25 @@ export default function Footer() {
         <div className="relative mx-auto max-w-5xl overflow-hidden rounded-3xl border border-[#dfe5e1] bg-[#e9f0ea] px-6 py-12 text-center md:py-16">
           
 
-          <div className="absolute -left-12 top-1/2 -translate-y-1/2 md:-left-8 lg:-left-4">
-  <Image
-    src="/Screenshot 2026-03-25 082940.png" 
-    alt="Decorative fork illustration"
-    width={256} 
-    height={256}
-    className="h-40 w-auto opacity-20 md:h-64 md:opacity-100 object-contain"
-  />
-</div>
+     <div className="absolute -left-12 top-1/2 -translate-y-1/2 md:-left-8 lg:-left-4">
+        <Image
+            src="/Screenshot 2026-03-25 082940.png" 
+            alt="Decorative fork illustration"
+            width={256} 
+            height={256}
+            className="h-40 w-auto opacity-20 md:h-64 md:opacity-100 object-contain"
+        />
+     </div>
 
-          
-          <div className="absolute -right-12 top-1/2 -translate-y-1/2 md:-right-8 lg:-right-4">
-  <Image
-    src="/Screenshot 2026-03-25 082509.png" 
-    alt="Decorative knife illustration"
-    width={256} 
-    height={256}
-    className="h-40 w-auto opacity-20 md:h-64 md:opacity-100 object-contain"
-  />
-</div>
+    <div className="absolute -right-12 top-1/2 -translate-y-1/2 md:-right-8 lg:-right-4">
+        <Image
+            src="/Screenshot 2026-03-25 082509.png" 
+            alt="Decorative knife illustration"
+            width={256} 
+            height={256}
+            className="h-40 w-auto opacity-20 md:h-64 md:opacity-100 object-contain"
+        />
+    </div>
 
           <div className="relative z-10 mx-auto max-w-lg select-none outline-none caret-transparent">
   <h2 className="mb-3 text-2xl font-bold tracking-tight text-[#1a3c34] md:text-4xl">
@@ -61,11 +60,11 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         
         <div className="flex items-center gap-2 text-gray-700 font-medium text-sm md:text-base select-none outline-none caret-transparent">
-  <span>Made with</span>
-  <FaHeart className="text-red-500" size={16} />
-  <span>and</span>
-  <GiAvocado className="text-[#4a7c2c]" size={20} />
-</div>
+            <span>Made with</span>
+              <FaHeart className="text-red-500" size={16} />
+            <span>and</span>
+              <GiAvocado className="text-[#4a7c2c]" size={20} />
+        </div>
 
         <div className="flex items-center gap-5 text-[#1a3c34]">
           <span aria-label="Instagram">
